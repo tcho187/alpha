@@ -15,8 +15,8 @@ Download Docker Desktop if you don't have it. https://www.docker.com/
 
 Run the following commands in the command line:
 ```
-docker build -t alphasights .
-docker run -p 5000:5000 alphasights
+docker build -t rubberduck .
+docker run -p 5000:5000 rubberduck
 ```
 
 Go to http://localhost:5000/ and you will see "Machine Learning Inference".
