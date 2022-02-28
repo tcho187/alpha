@@ -1,6 +1,6 @@
 FROM python:3.7-slim-stretch
 
-COPY ../../code/Alphasights /app
+COPY . /app
 WORKDIR /app
 
 RUN pip install --upgrade pip
